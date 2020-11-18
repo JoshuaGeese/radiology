@@ -123,32 +123,86 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-main.o: main.cpp.o
+src/class/MedicalImagingDevice.o: src/class/MedicalImagingDevice.cpp.o
 
-.PHONY : main.o
+.PHONY : src/class/MedicalImagingDevice.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/class/MedicalImagingDevice.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/class/MedicalImagingDevice.cpp.o
+.PHONY : src/class/MedicalImagingDevice.cpp.o
 
-main.i: main.cpp.i
+src/class/MedicalImagingDevice.i: src/class/MedicalImagingDevice.cpp.i
 
-.PHONY : main.i
+.PHONY : src/class/MedicalImagingDevice.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/class/MedicalImagingDevice.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/class/MedicalImagingDevice.cpp.i
+.PHONY : src/class/MedicalImagingDevice.cpp.i
 
-main.s: main.cpp.s
+src/class/MedicalImagingDevice.s: src/class/MedicalImagingDevice.cpp.s
 
-.PHONY : main.s
+.PHONY : src/class/MedicalImagingDevice.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/class/MedicalImagingDevice.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/class/MedicalImagingDevice.cpp.s
+.PHONY : src/class/MedicalImagingDevice.cpp.s
+
+src/class/Patient.o: src/class/Patient.cpp.o
+
+.PHONY : src/class/Patient.o
+
+# target to build an object file
+src/class/Patient.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/class/Patient.cpp.o
+.PHONY : src/class/Patient.cpp.o
+
+src/class/Patient.i: src/class/Patient.cpp.i
+
+.PHONY : src/class/Patient.i
+
+# target to preprocess a source file
+src/class/Patient.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/class/Patient.cpp.i
+.PHONY : src/class/Patient.cpp.i
+
+src/class/Patient.s: src/class/Patient.cpp.s
+
+.PHONY : src/class/Patient.s
+
+# target to generate assembly for a file
+src/class/Patient.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/class/Patient.cpp.s
+.PHONY : src/class/Patient.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... untitled"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/class/MedicalImagingDevice.o"
+	@echo "... src/class/MedicalImagingDevice.i"
+	@echo "... src/class/MedicalImagingDevice.s"
+	@echo "... src/class/Patient.o"
+	@echo "... src/class/Patient.i"
+	@echo "... src/class/Patient.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

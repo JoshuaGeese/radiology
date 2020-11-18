@@ -80,7 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/joshuageese/Desktop/Universität/Bachelorarbeit/Radiology/main.cpp">
+		<Unit filename="/Users/joshuageese/Desktop/Universität/Bachelorarbeit/Radiology/src/class/MedicalImagingDevice.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/joshuageese/Desktop/Universität/Bachelorarbeit/Radiology/src/class/MedicalImagingDevice.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/joshuageese/Desktop/Universität/Bachelorarbeit/Radiology/src/class/Patient.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/joshuageese/Desktop/Universität/Bachelorarbeit/Radiology/src/class/Patient.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/joshuageese/Desktop/Universität/Bachelorarbeit/Radiology/src/main.cpp">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/Users/joshuageese/Desktop/Universität/Bachelorarbeit/Radiology/CMakeLists.txt">

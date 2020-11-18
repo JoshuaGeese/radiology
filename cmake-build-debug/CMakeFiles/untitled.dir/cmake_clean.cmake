@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/untitled.dir/main.cpp.o"
+  "CMakeFiles/untitled.dir/src/class/MedicalImagingDevice.cpp.o"
+  "CMakeFiles/untitled.dir/src/class/Patient.cpp.o"
+  "CMakeFiles/untitled.dir/src/main.cpp.o"
   "untitled"
   "untitled.pdb"
 )
