@@ -1,0 +1,3 @@
+/Users/joshuageese/Desktop/Universität/Bachelorarbeit/Radiology/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/joshuageese/Desktop/Universität/Bachelorarbeit/Radiology/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/joshuageese/Desktop/Universität/Bachelorarbeit/Radiology/cmake-build-debug/CMakeFiles/untitled.dir
